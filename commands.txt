@@ -1,1 +1,127 @@
 toggledebugcamera
+slomo 
+slomo 1
+slomo 2
+slomo 3
+slomo 4
+slomo 5
+slomo 6
+slomo 7
+slomo 8
+slomo 9
+slomo 10
+teleport
+viewmode shadercomplexity
+viewmode lit
+show staticmeshes
+show skeletalmeshes
+show dynamicshadows
+destroytarget
+r.viewdistancescale 
+gamma 
+gamma 2
+gamma 3
+fov 
+fov 100
+changesize 
+changesize 0.001
+changesize 0.01
+changesize 0.1
+changesize 1
+summon 
+r.screenpercentage 
+r.screenpercentage 100
+t.maxfps 
+t.maxfps 0
+t.maxfps 30
+t.maxfps 60
+t.maxfps 120
+t.maxfps 144
+t.maxfps 240
+stat fps
+showdebug
+travel debugmenu
+travel stage
+summon BP_EquipItem_C / 신묘한 여자 가면
+summon BP_Light3_C / 촛대
+summon BP_NagashiTourou_C / 유등
+summon BP_Bakutiku_Throw_C / 폭죽 (즉시사용)
+summon BP_TimeSpher_Throw_C / 수정 구슬 (즉시사용)
+summon BP_Annaininn_C / 우호뮤녀
+summon BP_Throughter_C / 대식가 (No AI)
+summon BP_Mother_FirePillor_C / 불기둥 (No Damege)
+summon BP_Rack_C / 선반
+summon BP_Tans_Low_C / 서랍
+summon BP_Ghost_C / 마스크팩
+summon BP_Spider_C / 거미
+summon Magatama_C / 곡옥
+summon BP_TimeSpher_Item_C / 수정구슬
+summon BP_Suzu_Item_C / 고양이 방울
+summon BP_Mirror_Item_C / 손거울
+summon BP_Heal_C / 힐링 포션 (큰)
+summon BP_GlowStonePochi_C / 발광석
+summon BP_Compas_Item_C / 나침반
+summon BP_CollecterKey_C / 열쇠
+summon BP_Camela_Item_C / 카메라
+summon BP_Bakutiku_Item_C / 폭죽
+summon BP_ZingiLight_C / 혼돈의 카구라 방울 빛
+summon BP_Postor_C / 포스터 (까마귀)
+summon BP_Kokeshi_C / 목각인형
+summon BP_GlowStone_C / 발광석 1개
+summon BP_ArchiveItem_C / 서류 (라이터)
+summon BP_MagatamaL_Daiza_C / 황곡 재단
+summon BP_GoalMirror_C / 탁상 거울
+summon BP_GoalMagatamaBase_C / 곡옥 재단
+summon SteelBox_C / 수납장
+summon BP_Shutter_C / 비밀의 방 샷다문
+summon BP_PowerPanel_C / 비밀의 방 침실 스위치
+summon BP_MotherLight_C / 방울
+summon BP_MagatamaShot_C / 곡옥 빔
+summon BP_GimikRaver_C / 레버
+summon Syoukasen_C / 비밀의 방 소화전
+summon BP_Rocker_C / 바구니 (케비넷)
+summon BP_Zouo_ShadowHand_C / 니코로빈
+summon BP_Zouo_C / 빵대해진 증오 (물고기)
+summon BP_Mother_DethSun_C / 구체 (살기 안 나옴)
+summon BP_Zouo_LittleShadow_C / 금붕어 (발사체)
+summon BP_RockDoor_L_C / 성역으로 가는 문
+summon BP_GoalDoor2_C / 도착지점 문
+summon Magatama_L_C / 황금 곡옥
+summon BP_DeepBellSpawn_C / 경종 소리
+summon Item_GlowBrush_C / 빛나는 붓
+summon BP_DoorActor_Slide1_C / 나무 문
+summon BP_DoorActor_Slide2_C / 찢어진 문
+summon BP_DoorActor_Slide3_C / 성역 문
+summon BP_DoorActor_Push_C / 쪽 문
+summon BP_DoorActor_Push_Metal_C / 철창 문
+summon BP_WaterDoor_C / 수문
+summon BP_Bug_Fly_Position_C / 벌레 가면 (No AI)
+summon BP_DamageFloorSpawner_C / 흰색 공간
+summon BP_Bug_Fly_Spawner_C / 투명 블록 (앞에 뭐가 생기는데 길이 막히고 못지나감)
+summon EG_WichPawn_C / 도코니
+summon EG_PlayerPawn_C / 플레이어
+summon BP_MothersShadow_C / 살기 누나 (죽지 않음)
+summon BP_Zouo_DamageFloorSpawner_C / 흰공 떨어지는 흰색공간
+summon BP_Bug_Fly_C / 벌레
+summon BP_DamageFloorBody_C / 지렁이
+summon Magatama_CharengeAddText_C / 곡챌 보너스 글짜
+summon EG_EnemyPawn_C / 합체몬
+summon BP_Screamer_C / 물 타고 다니는 경종
+summon BP_Mother_FireBall_C / 파이어 볼
+summon BP_Mother_C / 어머니 우리 (어머니 아님)
+summon Parsistant_C / 지속성 있는
+summon BP_LakeWater_C / 호수
+summon BP_Light5_C / 등불
+summon BP_PlayerFallOutRespawner_C / 레이어 리스폰 거울효과
+summon BP_RockDoor_S_C / 닫힌 돌문
+summon BP_Rousoku1_C / 그냥 초
+summon BP_Water_C / 물지형
+summon BP_Hibana_C / 히바나
+summon EventSkipManager_C / 대화스킵 창 (하면 렉먹음 안하는게 좋음)
+summon TalkManager_C / 대화창
+summon Zingi_Men_C / 신묘한 여자 가면
+summon Zingi_Men2_C / 천호 가면
+summon Zingi_Men1_C / 반야 가면
+summon BP_Postprosess_Sepia_C / 세피아 모드
+summon BP_DeepBellSpawn_C / 경종 소리
+summon BP_Mother_Zannzou_C / 어머니 이동효과
