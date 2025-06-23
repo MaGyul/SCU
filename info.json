@@ -1,0 +1,15 @@
+{
+    "baseURL": "https://raw.githubusercontent.com/MaGyul/SCU/libs",
+    "files": {
+        "game-overlay.dll": {
+            "url": "{base}/game-overlay.dll",
+            "md5": "db57bdf395424877cd18984e4063e27a",
+            "sha256": "d8ec6cc221a8c88b06b03d89ce686796b3b85fc199d14be5482e70557ef92f53"
+        },
+        "game-overlay.x64.dll": {
+            "url": "{base}/game-overlay.x64.dll",
+            "md5": "55aabcc4ba35ae74514ea79f8c5f356b",
+            "sha256": "7b87edfcae710475a36536ff91275f97092929c63d05e88310b3f9d51e5d8a4c"
+        }
+    }
+}
