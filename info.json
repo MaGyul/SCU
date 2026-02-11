@@ -3,13 +3,13 @@
     "files": {
         "game-overlay.dll": {
             "url": "{base}/game-overlay.dll",
-            "md5": "dfe5ce65b79054dcfbbde0933b8f2e86",
-            "sha256": "2d62b8f0ee7cb4d6edc9b819c2c4943e92c854d9557b9fcebea29ead54be6070"
+            "md5": "a063561010c2b8bbd85a3775da94aa90",
+            "sha256": "3f83a7ee8886c95d238e5e8f543a597f3e3259b6f26e17d1a1154c40b6f7e735"
         },
         "game-overlay.x64.dll": {
             "url": "{base}/game-overlay.x64.dll",
-            "md5": "f1fbdc5563223f83b7e998b83ce2f63e",
-            "sha256": "b112218043971930b63b4fe81110f37b3776c1d790ba0eb1785b38072459d004"
+            "md5": "d6e5b0b9981c36a1eba82ebfc4493143",
+            "sha256": "6fba755a7a6e629fd2903cb68bbbff9a808374df19028bacca7ff58a65a713fd"
         }
     }
 }
