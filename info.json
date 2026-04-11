@@ -10,6 +10,11 @@
             "url": "{base}/game-overlay.x64.dll",
             "md5": "3465230741a63087c43003f579a6c073",
             "sha256": "c30d3749d8a9e63a971ddec0a4f2f351b5977dc66471d274656a2ff7234ee543"
+        },
+        "SUC.dll": {
+            "url": "{base}/SUC.dll",
+            "md5": "ce0f0eea7e484404ff70c28903b03b64",
+            "sha256": "38f720e9494b674bc2da1fa891b09ab7e439bbd7fab66f0bb17e5bf39021ec5c"
         }
     }
 }
