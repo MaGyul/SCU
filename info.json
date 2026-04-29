@@ -13,8 +13,8 @@
         },
         "SUC.dll": {
             "url": "{base}/SUC.dll",
-            "md5": "10e524c532da59401624d442314bfcd5",
-            "sha256": "eba23477cae80b6e630e8d7bc65c105383d56929a0a859737023a708d394e2ea"
+            "md5": "0b7eb63d5c5becbe9391159dd971b526",
+            "sha256": "84dfb12f3972ae270a71edbe219d74421934193580058c40b6390cad08b92fe8"
         }
     }
 }
