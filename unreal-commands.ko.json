@@ -1,0 +1,454 @@
+[
+    {
+        "text": "toggledebugcamera",
+        "description": "디버그 카메라 토글"
+    },
+    {
+        "text": "slomo",
+        "description": "게임 속도",
+        "args": [{
+            "text": "speed",
+            "type": "number",
+            "description": ""
+        }]
+    },
+    {
+        "text": "teleport",
+        "description": "보고있는 객체로 순간이동",
+        "args": [{
+            "text": "value",
+            "type": "auto",
+            "description": "디버그 카메라 있는 위치로 순간이동",
+            "auto": ["here"]
+        }]
+    },
+    {
+        "text": "viewmode",
+        "description": "",
+        "args": [{
+            "text": "mode",
+            "type": "auto",
+            "description": "",
+            "auto": [
+                "shadercomplexity", "lit"
+            ]
+        }]
+    },
+    {
+        "text": "show",
+        "description": "",
+        "args": [{
+            "text": "mode",
+            "type": "auto",
+            "auto": ["staticmeshes", "skeletalmeshes", "dynamicshadows"]
+        }]
+    },
+    {
+        "text": "destroytarget",
+        "description": "보고있는 객체 제거"
+    },
+    {
+        "text": "r.viewdistancescale",
+        "description": "뷰 거리 스케일 조절",
+        "args": [{
+            "text": "scale",
+            "type": "number",
+            "description": ""
+        }]
+    },
+    {
+        "text": "r.screenpercentage",
+        "description": "해상도 스케일링 조절",
+        "args": [{
+            "text": "scale",
+            "type": "number",
+            "description": ""
+        }]
+    },
+    {
+        "text": "gamma",
+        "description": "감마 조절",
+        "args": [{
+            "text": "value",
+            "type": "number",
+            "description": ""
+        }]
+    },
+    {
+        "text": "fov",
+        "description": "시야각 조절",
+        "args": [{
+            "text": "value",
+            "type": "number",
+            "description": ""
+        }]
+    },
+    {
+        "text": "changesize",
+        "description": "플레이어 크기 조절",
+        "args": [{
+            "text": "value",
+            "type": "number",
+            "description": ""
+        }]
+    },
+    {
+        "text": "summon",
+        "description": "객체 소환",
+        "children": [
+            {
+                "text": "BP_EquipItem_C",
+                "description": "신묘한 여자 가면 (아이템)"
+            },
+            {
+                "text": "BP_Light3_C",
+                "description": "촛대"
+            },
+            {
+                "text": "BP_NagashiTourou_C",
+                "description": "유등"
+            },
+            {
+                "text": "BP_Bakutiku_Throw_C",
+                "description": "던져진 폭죽"
+            },
+            {
+                "text": "BP_TimeSpher_Throw_C",
+                "description": "던져진 수정 구슬"
+            },
+            {
+                "text": "BP_Annaininn_C",
+                "description": "안내 무녀"
+            },
+            {
+                "text": "BP_Throughter_C",
+                "description": "대식가 (No AI)"
+            },
+            {
+                "text": "BP_Mother_FirePillor_C",
+                "description": "불기능 (데미지 X)"
+            },
+            {
+                "text": "BP_Rack_C",
+                "description": "선반"
+            },
+            {
+                "text": "BP_Tans_Low_C",
+                "description": "서랍"
+            },
+            {
+                "text": "BP_Ghost_C",
+                "description": "떠도는 유령"
+            },
+            {
+                "text": "BP_Spider_C",
+                "description": "서랍 거미"
+            },
+            {
+                "text": "Magatama_C",
+                "description": "곡옥"
+            },
+            {
+                "text": "BP_TimeSpher_Item_C",
+                "description": "수정 구슬 (아이템)"
+            },
+            {
+                "text": "BP_Suzu_Item_C",
+                "description": "고양이 방울 (아이템)"
+            },
+            {
+                "text": "BP_Mirror_Item_C",
+                "description": "손 거울 (아이템)"
+            },
+            {
+                "text": "BP_Heal_C",
+                "description": "체력 포션 (아이템)"
+            },
+            {
+                "text": "BP_GlowStonePochi_C",
+                "description": "발광석 (아이템)"
+            },
+            {
+                "text": "BP_Compas_Item_C",
+                "description": "나침반 (아이템)"
+            },
+            {
+                "text": "BP_CollecterKey_C",
+                "description": "열쇠 (아이템)"
+            },
+            {
+                "text": "BP_Camela_Item_C",
+                "description": "카메라 (아이템)"
+            },
+            {
+                "text": "BP_Bakutiku_Item_C",
+                "description": "폭죽 (아이템)"
+            },
+            {
+                "text": "BP_ZingiLight_C",
+                "description": "혼돈의 카구라 방울 빛"
+            },
+            {
+                "text": "BP_Postor_C",
+                "description": "포스터 (까마귀)"
+            },
+            {
+                "text": "BP_Kokeshi_C",
+                "description": "목각 인형"
+            },
+            {
+                "text": "BP_GlowStone_C",
+                "description": "발광석 1개"
+            },
+            {
+                "text": "BP_ArchiveItem_C",
+                "description": "서류 (라이터)"
+            },
+            {
+                "text": "BP_MagatamaL_Daiza_C",
+                "description": "황금 곡옥 제단"
+            },
+            {
+                "text": "BP_GoalMirror_C",
+                "description": "탁상 거울"
+            },
+            {
+                "text": "BP_GoalMagatamaBase_C",
+                "description": "곡옥 제단"
+            },
+            {
+                "text": "SteelBox_C",
+                "description": "수납장"
+            },
+            {
+                "text": "BP_Shutter_C",
+                "description": "비밀의 방 샷다운"
+            },
+            {
+                "text": "BP_PowerPanel_C",
+                "description": "비밀의 방 침실 스위치"
+            },
+            {
+                "text": "BP_MotherLight_C",
+                "description": "방울"
+            },
+            {
+                "text": "BP_MagatamaShot_C",
+                "description": "발사된 곡옥"
+            },
+            {
+                "text": "BP_GimikRaver_C",
+                "description": "레버"
+            },
+            {
+                "text": "Syoukasen_C",
+                "description": "비밀의 방 소화전"
+            },
+            {
+                "text": "BP_Rocker_C",
+                "description": "바구니 (케비넷)"
+            },
+            {
+                "text": "BP_Zouo_ShadowHand_C",
+                "description": "니코로빈"
+            },
+            {
+                "text": "BP_Zouo_C",
+                "description": "방대해진 증오 (물고기)"
+            },
+            {
+                "text": "BP_Mother_DethSun_C",
+                "description": "구체 (살기 빛 X)"
+            },
+            {
+                "text": "BP_Zouo_LittleShadow_C",
+                "description": "금붕어 (발차세)"
+            },
+            {
+                "text": "BP_RockDoor_L_C",
+                "description": "성역으로 가는 문"
+            },
+            {
+                "text": "BP_GoalDoor2_C",
+                "description": "도착지점 문"
+            },
+            {
+                "text": "Magatama_L_C",
+                "description": "황금 곡옥"
+            },
+            {
+                "text": "BP_DeepBellSpawn_C",
+                "description": "경종 사운드"
+            },
+            {
+                "text": "Item_GlowBrush_C",
+                "description": "빛나는 붓 (아이템)"
+            },
+            {
+                "text": "BP_DoorActor_Slide1_C",
+                "description": "나무 문"
+            },
+            {
+                "text": "BP_DoorActor_Slide2_C",
+                "description": "찢어진 문"
+            },
+            {
+                "text": "BP_DoorActor_Slide3_C",
+                "description": "성역 문"
+            },
+            {
+                "text": "BP_DoorActor_Push_C",
+                "description": "쪽 문"
+            },
+            {
+                "text": "BP_DoorActor_Push_Metal_C",
+                "description": "철창 문"
+            },
+            {
+                "text": "BP_WaterDoor_C",
+                "description": "수문"
+            },
+            {
+                "text": "BP_Bug_Fly_Position_C",
+                "description": "벌레 가면 (No AI)"
+            },
+            {
+                "text": "BP_DamageFloorSpawner_C",
+                "description": "흰색 공간"
+            },
+            {
+                "text": "EG_WichPawn_C",
+                "description": "도코니"
+            },
+            {
+                "text": "BP_MothersShadow_C",
+                "description": "증호를 흗뿌리는 그림자"
+            },
+            {
+                "text": "BP_Bug_Fly_C",
+                "description": "가면 벌레"
+            },
+            {
+                "text": "BP_DamageFloorBody_C",
+                "description": "지렁이"
+            },
+            {
+                "text": "Magatama_CharengeAddText_C",
+                "description": "곡옥 챌린지 보너스 글자"
+            },
+            {
+                "text": "EG_EnemyPawn_C",
+                "description": "배회자 (합체된)"
+            },
+            {
+                "text": "BP_Screamer_C",
+                "description": "물 경종"
+            },
+            {
+                "text": "BP_Mother_FireBall_C",
+                "description": "불 구"
+            },
+            {
+                "text": "BP_Mother_C",
+                "description": "적 어머니"
+            },
+            {
+                "text": "Parsistant_C",
+                "description": "기본 맵?"
+            },
+            {
+                "text": "BP_LakeWater_C",
+                "description": "호수"
+            },
+            {
+                "text": "BP_Light5_C",
+                "description": "등불"
+            },
+            {
+                "text": "BP_PlayerFallOutRespawner_C",
+                "description": "플레이어 리스폰 거울 효과"
+            },
+            {
+                "text": "BP_RockDoor_S_C",
+                "description": "닫힌 돌문"
+            },
+            {
+                "text": "BP_Rousoku1_C",
+                "description": "그냥 초"
+            },
+            {
+                "text": "BP_Water_C",
+                "description": "물 지형"
+            },
+            {
+                "text": "BP_Hibana_C",
+                "description": "히바나"
+            },
+            {
+                "text": "Zingi_Men_C",
+                "description": "신묘한 여자 가면 (방울 효과)"
+            },
+            {
+                "text": "Zingi_Men2_C",
+                "description": "천호 가면 (방울 효과)"
+            },
+            {
+                "text": "Zingi_Men1_C",
+                "description": "반야 가면 (방울 효과)"
+            },
+            {
+                "text": "BP_Postprosess_Sepia_C",
+                "description": "세피아 모드"
+            },
+            {
+                "text": "BP_Mother_Zannzou_C",
+                "description": "적 어머니 이동효과"
+            }
+        ]
+    },
+    {
+        "text": "stat",
+        "description": "상태 표시",
+        "args": [{
+            "text": "value",
+            "type": "auto",
+            "description": "",
+            "auto": ["fps"]
+        }]
+    },
+    {
+        "text": "showdebug",
+        "description": "디버그 내용 토글"
+    },
+    {
+        "text": "restartlevel",
+        "description": "현재 레벨 재시작"
+    },
+    {
+        "text": "open",
+        "description": "특정 맵 로드",
+        "args": [{
+            "text": "value",
+            "type": "string",
+            "description": ""
+        }]
+    },
+    {
+        "text": "travel",
+        "description": "맵 이동",
+        "args": [{
+            "text": "value",
+            "type": "string",
+            "description": ""
+        }]
+    },
+    {
+        "text": "t.maxfps",
+        "description": "최대 프레임 조절",
+        "args": [{
+            "text": "fps",
+            "type": "number",
+            "description": ""
+        }]
+    }
+]

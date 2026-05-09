@@ -1,0 +1,470 @@
+[
+    {
+        "text": "toggledebugcamera",
+        "description": ""
+    },
+    {
+        "text": "slomo",
+        "description": "",
+        "args": [{
+            "text": "speed",
+            "type": "number",
+            "description": ""
+        }]
+    },
+    {
+        "text": "teleport",
+        "description": "",
+        "args": [{
+            "text": "value",
+            "type": "auto",
+            "description": "Teleport to Debug Camera Location",
+            "auto": ["here"]
+        }]
+    },
+    {
+        "text": "viewmode",
+        "description": "",
+        "args": [{
+            "text": "mode",
+            "type": "auto",
+            "description": "",
+            "auto": [
+                "shadercomplexity", "lit"
+            ]
+        }]
+    },
+    {
+        "text": "show",
+        "description": "",
+        "args": [{
+            "text": "mode",
+            "type": "auto",
+            "auto": ["staticmeshes", "skeletalmeshes", "dynamicshadows"]
+        }]
+    },
+    {
+        "text": "destroytarget",
+        "description": ""
+    },
+    {
+        "text": "r.viewdistancescale",
+        "description": "",
+        "args": [{
+            "text": "scale",
+            "type": "number",
+            "description": ""
+        }]
+    },
+    {
+        "text": "r.screenpercentage",
+        "description": "",
+        "args": [{
+            "text": "scale",
+            "type": "number",
+            "description": ""
+        }]
+    },
+    {
+        "text": "gamma",
+        "description": "",
+        "args": [{
+            "text": "value",
+            "type": "number",
+            "description": ""
+        }]
+    },
+    {
+        "text": "fov",
+        "description": "",
+        "args": [{
+            "text": "value",
+            "type": "number",
+            "description": ""
+        }]
+    },
+    {
+        "text": "changesize",
+        "description": "",
+        "args": [{
+            "text": "value",
+            "type": "number",
+            "description": ""
+        }]
+    },
+    {
+        "text": "summon",
+        "description": "",
+        "children": [
+            {
+                "text": "BP_EquipItem_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Light3_C",
+                "description": ""
+            },
+            {
+                "text": "BP_NagashiTourou_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Bakutiku_Throw_C",
+                "description": ""
+            },
+            {
+                "text": "BP_TimeSpher_Throw_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Annaininn_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Throughter_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Mother_FirePillor_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Rack_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Tans_Low_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Ghost_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Spider_C",
+                "description": ""
+            },
+            {
+                "text": "Magatama_C",
+                "description": ""
+            },
+            {
+                "text": "BP_TimeSpher_Item_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Suzu_Item_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Mirror_Item_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Heal_C",
+                "description": ""
+            },
+            {
+                "text": "BP_GlowStonePochi_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Compas_Item_C",
+                "description": ""
+            },
+            {
+                "text": "BP_CollecterKey_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Camela_Item_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Bakutiku_Item_C",
+                "description": ""
+            },
+            {
+                "text": "BP_ZingiLight_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Postor_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Kokeshi_C",
+                "description": ""
+            },
+            {
+                "text": "BP_GlowStone_C",
+                "description": ""
+            },
+            {
+                "text": "BP_ArchiveItem_C",
+                "description": ""
+            },
+            {
+                "text": "BP_MagatamaL_Daiza_C",
+                "description": ""
+            },
+            {
+                "text": "BP_GoalMirror_C",
+                "description": ""
+            },
+            {
+                "text": "BP_GoalMagatamaBase_C",
+                "description": ""
+            },
+            {
+                "text": "SteelBox_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Shutter_C",
+                "description": ""
+            },
+            {
+                "text": "BP_PowerPanel_C",
+                "description": ""
+            },
+            {
+                "text": "BP_MotherLight_C",
+                "description": ""
+            },
+            {
+                "text": "BP_MagatamaShot_C",
+                "description": ""
+            },
+            {
+                "text": "BP_GimikRaver_C",
+                "description": ""
+            },
+            {
+                "text": "Syoukasen_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Rocker_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Zouo_ShadowHand_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Zouo_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Mother_DethSun_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Zouo_LittleShadow_C",
+                "description": ""
+            },
+            {
+                "text": "BP_RockDoor_L_C",
+                "description": ""
+            },
+            {
+                "text": "BP_GoalDoor2_C",
+                "description": ""
+            },
+            {
+                "text": "Magatama_L_C",
+                "description": ""
+            },
+            {
+                "text": "BP_DeepBellSpawn_C",
+                "description": ""
+            },
+            {
+                "text": "Item_GlowBrush_C",
+                "description": ""
+            },
+            {
+                "text": "BP_DoorActor_Slide1_C",
+                "description": ""
+            },
+            {
+                "text": "BP_DoorActor_Slide2_C",
+                "description": ""
+            },
+            {
+                "text": "BP_DoorActor_Slide3_C",
+                "description": ""
+            },
+            {
+                "text": "BP_DoorActor_Push_C",
+                "description": ""
+            },
+            {
+                "text": "BP_DoorActor_Push_Metal_C",
+                "description": ""
+            },
+            {
+                "text": "BP_WaterDoor_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Bug_Fly_Position_C",
+                "description": ""
+            },
+            {
+                "text": "BP_DamageFloorSpawner_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Bug_Fly_Spawner_C",
+                "description": ""
+            },
+            {
+                "text": "EG_WichPawn_C",
+                "description": ""
+            },
+            {
+                "text": "EG_PlayerPawn_C",
+                "description": ""
+            },
+            {
+                "text": "BP_MothersShadow_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Zouo_DamageFloorSpawner_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Bug_Fly_C",
+                "description": ""
+            },
+            {
+                "text": "BP_DamageFloorBody_C",
+                "description": ""
+            },
+            {
+                "text": "Magatama_CharengeAddText_C",
+                "description": ""
+            },
+            {
+                "text": "EG_EnemyPawn_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Screamer_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Mother_FireBall_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Mother_C",
+                "description": ""
+            },
+            {
+                "text": "Parsistant_C",
+                "description": ""
+            },
+            {
+                "text": "BP_LakeWater_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Light5_C",
+                "description": ""
+            },
+            {
+                "text": "BP_PlayerFallOutRespawner_C",
+                "description": ""
+            },
+            {
+                "text": "BP_RockDoor_S_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Rousoku1_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Water_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Hibana_C",
+                "description": ""
+            },
+            {
+                "text": "Zingi_Men_C",
+                "description": ""
+            },
+            {
+                "text": "Zingi_Men2_C",
+                "description": ""
+            },
+            {
+                "text": "Zingi_Men1_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Postprosess_Sepia_C",
+                "description": ""
+            },
+            {
+                "text": "BP_DeepBellSpawn_C",
+                "description": ""
+            },
+            {
+                "text": "BP_Mother_Zannzou_C",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "text": "stat",
+        "description": "",
+        "args": [{
+            "text": "value",
+            "type": "auto",
+            "description": "",
+            "auto": ["fps"]
+        }]
+    },
+    {
+        "text": "showdebug",
+        "description": ""
+    },
+    {
+        "text": "restartlevel",
+        "description": ""
+    },
+    {
+        "text": "open",
+        "description": "",
+        "args": [{
+            "text": "value",
+            "type": "string",
+            "description": ""
+        }]
+    },
+    {
+        "text": "travel",
+        "description": "",
+        "args": [{
+            "text": "value",
+            "type": "string",
+            "description": ""
+        }]
+    },
+    {
+        "text": "t.maxfps",
+        "description": "Caps FPS to the given value. Set to <= 0 to be uncapped.",
+        "args": [{
+            "text": "fps",
+            "type": "number",
+            "description": "Set fps"
+        }]
+    }
+]
