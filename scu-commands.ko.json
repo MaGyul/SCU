@@ -1,22 +1,22 @@
 [
   {
     "text": "scu",
-    "description": "Shadow Corridor Utility Commands",
+    "description": "그림자 복도 유틸리티 명령어 모음", 
     "children": [
       {
         "text": "audio",
-        "description": "Audio related commands",
+        "description": "오디오 관련 명령어",
         "children": [
           {
             "text": "controlEnding",
-            "description": "Enable or disable control of ending music.",
+            "description": "엔딩 음악 제어 활성화 또는 비활성화.",
             "args": [
               { "text": "enable", "type": "boolean", "description": "" }
             ]
           },
           {
             "text": "controlMode",
-            "description": "Set control mode to either mute or change ending music.",
+            "description": "엔딩 음악을 뮤트(mute)하거나 변경하도록 제어 모드 설정.",
             "args": [
               {
                 "text": "mode",
@@ -28,11 +28,12 @@
           },
           {
             "text": "muteEnding",
-            "description": "Manually mute ending music components currently playing."
+            "description": "현재 재생 중인 엔딩 음악 구성 요소를 수동으로 뮤트합니다.",
+            "args": []
           },
           {
             "text": "changeEnding",
-            "description": "Manually change ending music to specified BGM (without package path, e.g. '09-dawn')",
+            "description": "엔딩 음악을 지정된 BGM으로 수동 변경합니다 (패키지 경로 제외, 예: '09-dawn').",
             "args": [
               { "text": "bgm", "type": "string", "description": "" }
             ]
@@ -41,92 +42,92 @@
       },
       {
         "text": "enemysc",
-        "description": "Enemy Speed Controller commands",
+        "description": "적 속도 제어 명령어",
         "children": [
           {
             "text": "setSpeed",
-            "description": "Set enemy speed multiplier",
+            "description": "적 속도 배율을 설정합니다.",
             "args": [
               { "text": "multiplier", "type": "number", "description": "" }
             ]
           },
           {
             "text": "setNotApply",
-            "description": "Set enemies that should not be affected (comma separated)",
+            "description": "영향을 받지 않아야 할 적들을 지정합니다 (쉼표로 구분).",
             "args": [
               { "text": "list", "type": "string", "description": "" }
             ]
           },
-          { "text": "enable", "description": "Enable enemy speed control" },
-          { "text": "disable", "description": "Disable enemy speed control" },
-          { "text": "status", "description": "Show current status" }
+          { "text": "enable", "description": "적 속도 제어 활성화" },
+          { "text": "disable", "description": "적 속도 제어 비활성화" },
+          { "text": "status", "description": "현재 상태를 보여줍니다." }
         ]
       },
       {
         "text": "advanced",
-        "description": "Advanced features commands",
+        "description": "고급 기능 명령어",
         "children": [
           {
             "text": "mutekiMode",
-            "description": "Enable or disable mutaki mode",
+            "description": "무적 모드 활성화 또는 비활성화.",
             "args": [
               { "text": "enable", "type": "boolean", "description": "" }
             ]
           },
           {
             "text": "stageStartSkip",
-            "description": "Enable or disable stage start skip",
+            "description": "스테이지 시작 건너뛰기(스킵) 활성화 또는 비활성화.",
             "args": [
               { "text": "enable", "type": "boolean", "description": "" }
             ]
           },
           {
             "text": "cameraCooldown",
-            "description": "Set camera cooldown time",
+            "description": "카메라 재사용 대기시간(쿨다운)을 설정합니다.",
             "args": [
               { "text": "seconds", "type": "number", "description": "" }
             ]
           },
-          { "text": "setQItem", "description": "Set Q item" },
-          { "text": "useQItem", "description": "Use Q item" },
+          { "text": "setQItem", "description": "Q 아이템을 설정합니다." },
+          { "text": "useQItem", "description": "Q 아이템을 사용합니다." },
           {
             "text": "enemyHere",
-            "description": "Move specified enemies near the player",
+            "description": "지정된 적들을 플레이어 근처로 이동시킵니다.",
             "args": [
               { "text": "forward_distance", "type": "number", "description": "" }
             ]
           },
           {
             "text": "enemySpawn",
-            "description": "Spawn specified number of enemies",
+            "description": "지정된 수의 적을 생성합니다(스폰).",
             "args": [
               { "text": "count", "type": "number", "description": "" }
             ]
           },
           {
             "text": "playMagatamaCharengeBGM",
-            "description": "Play magatama charge BGM at specified volume",
+            "description": "지정된 볼륨으로 마가타마 도전 BGM을 재생합니다.",
             "args": [
               { "text": "volume", "type": "number", "description": "" }
             ]
           },
-          { "text": "endMagatamaCharenge", "description": "End magatama charge" }
+          { "text": "endMagatamaCharenge", "description": "마가타마 도전을 종료합니다." }
         ]
       },
       {
         "text": "custom",
-        "description": "Custom features commands",
+        "description": "사용자 지정 기능 명령어",
         "children": [
           {
             "text": "apply",
-            "description": "Apply custom settings from JSON string",
+            "description": "JSON 문자열로부터 사용자 지정 설정을 적용합니다.",
             "args": [
               { "text": "json", "type": "string", "description": "" }
             ]
           },
           {
             "text": "set_enemy_max_limit",
-            "description": "Set the maximum enemy limit",
+            "description": "최대 적 제한을 설정합니다.",
             "args": [
               { "text": "count", "type": "number", "description": "" }
             ]
@@ -135,15 +136,15 @@
       },
       {
         "text": "bugfix",
-        "description": "Bug fix related commands",
+        "description": "버그 수정 관련 명령어",
         "children": [
-          { "text": "fix_bakutiku", "description": "Fix the Bakutiku bug" },
-          { "text": "reset_bakutiku", "description": "Reset the Bakutiku bug fix" }
+          { "text": "fix_bakutiku", "description": "바쿠티쿠(Bakutiku) 버그를 수정합니다." },
+          { "text": "reset_bakutiku", "description": "바쿠티쿠 버그 수정 사항을 초기화합니다." }
         ]
       },
       {
         "text": "speed",
-        "description": "Get or set game speed multiplier",
+        "description": "게임 속도 배율을 가져오거나 설정합니다.",
         "args": [
           {
             "text": "value",
