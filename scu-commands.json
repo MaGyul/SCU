@@ -142,6 +142,36 @@
         ]
       },
       {
+        "text": "special",
+        "description": "Special content commands",
+        "children": [
+          { "text": "MoneyEdition", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "EnhancementCompas", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "Otasuke", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "EnhancementHandLight", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "EnhancementGlowStone", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "EnhancementWalkSpeed", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "EnhancementStamina", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "Men_Normal", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "ChaosOfBell", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "Men_Mamori", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "Men_Tenko", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "SepiaMode", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "MagatamaNeckless", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "GoldMedal", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "GrowingPaintingBrush", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "RockerMode", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "Hatimaki", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "LongBoots", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "RedReef", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "GreenReef", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "Tail", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "InfinitItemMode", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "PartyMode", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "KokeshiSonner", "description": "", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] }
+        ]
+      },
+      {
         "text": "speed",
         "description": "Get or set game speed multiplier",
         "args": [

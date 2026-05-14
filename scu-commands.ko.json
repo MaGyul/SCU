@@ -143,6 +143,36 @@
         ]
       },
       {
+        "text": "special",
+        "description": "칭호 관련 명령어",
+        "children": [
+          { "text": "MoneyEdition", "description": "반야의 가면", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "EnhancementCompas", "description": "나침반 강화", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "Otasuke", "description": "도우미 세트", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "EnhancementHandLight", "description": "손전등의 배터리 강화", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "EnhancementGlowStone", "description": "발광석의 빛의 세기 강화", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "EnhancementWalkSpeed", "description": "앉아서 걷는 속도 강화", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "EnhancementStamina", "description": "스테미너 회복속도 강화", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "Men_Normal", "description": "신묘한 여자 가면", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "ChaosOfBell", "description": "혼돈의 카구라 방울", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "Men_Mamori", "description": "히바나의 가면", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "Men_Tenko", "description": "천호의 가면", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "SepiaMode", "description": "세피아 모드", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "MagatamaNeckless", "description": "곡옥 목걸이", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "GoldMedal", "description": "금메달", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "GrowingPaintingBrush", "description": "빛나는 붓", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "RockerMode", "description": "캐비닛 모드", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "Hatimaki", "description": "매듭 머리띠", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "LongBoots", "description": "두꺼운 장화", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "RedReef", "description": "빨간 잎사귀", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "GreenReef", "description": "초록 잎사귀", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "Tail", "description": "도마뱀 꼬리", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "InfinitItemMode", "description": "아이템 무한", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "PartyMode", "description": "파티 모드", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] },
+          { "text": "KokeshiSonner", "description": "목각 인형 탐지", "args": [ { "text": "on/off", "type": "boolean", "description": "" } ] }
+        ]
+      },
+      {
         "text": "speed",
         "description": "게임 속도 배율을 가져오거나 설정합니다.",
         "args": [
